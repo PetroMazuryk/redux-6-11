@@ -31,3 +31,7 @@ export const setStatusFilter = value => {
     payload: value,
   };
 };
+
+export const DeleteAllCompleted = () => {
+  return { type: 'tasks/DeleteAllCompleted' };
+};
